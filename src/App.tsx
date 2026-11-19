@@ -8,6 +8,8 @@ function App() {
     queryFn: () => getWeather({ lat: 50, lon: 50 }),
   })
 
+
+
   return <>{JSON.stringify(data)}</>
 }
 
